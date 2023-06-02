@@ -30,3 +30,7 @@ Tool Library: This component will store all the tools that the AI has learned. T
 Critic Agent: This component will be responsible for evaluating the performance of the AI. If the task execution fails, the critic agent will provide feedback to the AI, which will use this feedback to improve its performance. 
 
 Human Interaction: This component will allow the AI to interact with humans when it has doubts or needs assistance. 
+
+## Milestones
+### 1. AI generated code to be executed in Python interpreter.
+For given task, LLM will response executeable code snippet only, when code executed successfully, it will be stored in Vector DB along with description.
