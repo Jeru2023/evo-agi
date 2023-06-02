@@ -7,7 +7,8 @@ However Minecraft is an API driven virtual digital world, when it comes to real 
 
 In this project, I take an initial step towards enabling general tools making skills for AGI to have LLM create their own reusable tools for problem-solving in the real world.
 
-It will be a self-study AI capable of solving complex challenges. Its ability will grow stronger over time, and this evolutionary process should rely on minimum code only. AI will write code for self-enhancement and enrich its library tools.
+## Vision
+evo-agi will be a self-study AI capable of solving complex challenges. Its ability will grow stronger over time, and this evolutionary process should rely on minimum code only. AI will write code for self-enhancement and enrich its library tools.
 
 There are some key features I would like to empower AI:
 
