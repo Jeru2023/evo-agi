@@ -34,3 +34,4 @@ Human Interaction: This component will allow the AI to interact with humans when
 ## Milestones
 ### 1. AI generated code to be executed in Python interpreter.
 For given task, LLM will response executeable code snippet only, when code executed successfully, it will be stored in Vector DB along with description.
+[Generate code prompt](https://github.com/Jeru2023/evo-agi/blob/main/evo-agi/prompts/code_gen.txt)
