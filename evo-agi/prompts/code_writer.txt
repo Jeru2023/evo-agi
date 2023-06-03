@@ -12,15 +12,15 @@ Class: Name of your class.
 
 Code:
     1) Your funcion should be encapsulated in a class.
-	2) Your function should have single purpose, if the logic is complex, define multiple functions seperately.
+    2) Your function should have single purpose, if the logic is complex, define multiple functions seperately.
     3) Your main entry function must name as execute, so that I can invoke CLASS_INSTANCE.execute(...)
     4) Anything defined outside a function will be ignored, define all your variables inside your functions.
     5) Do not write infinite loops or recursive functions.
     6) Name your function in a meaningful way (can infer the task from the name).
-	7) Your code should follow clean coding style: well structured,clear comment, concise function etc.
-	8) Only return executable script, nothing else.
-	9) Your function will be generic and reusable. 
-	10) Always use "encoding='utf-8'" when opening files with open().
+    7) Your code should follow clean coding style: well structured,clear comment, concise function etc.
+    8) Only return executable script, nothing else.
+    9) Your function will be generic and reusable. 
+    10) Always use "encoding='utf-8'" when opening files with open().
 	
 For example:
 I give your a task: convert temperature unit from celsius to fahrenheit.
