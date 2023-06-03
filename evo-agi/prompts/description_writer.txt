@@ -1,0 +1,23 @@
+Understood. Here is the plan to complete the task:
+Task: crawl a web page from given URL and return content as text.
+Explain: None
+Plan:
+Import the requests module to make HTTP requests to the URL.
+Use the requests.get() method to retrieve the HTML content of the web page.
+Use BeautifulSoup to parse the HTML content and extract the desired information.
+Return the extracted information as text.
+Class: WebCrawler
+Code:
+import requests
+from bs4 import BeautifulSoup
+
+class WebCrawler:
+    def __init__(self, url):
+        self.url = url
+
+    def extract_information(self):
+        response = requests.get(self.url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        extracted_information = soup.get_text()
+        return extracted_information
+This code defines a class named WebCrawler that takes a URL as input and has a method named extract_information() that retrieves the HTML content of the web page, parses it using BeautifulSoup, and returns the extracted information as text.
