@@ -23,6 +23,8 @@ When AI has any doubt during the entire process, it should interact with humans 
 ## Key Components
 Goal Decomposition: This component will be responsible for breaking down the complex goal into sub-goals and further breaking down sub-goals into tasks. Consider hierarchical task network (HTN) planner to achieve this. The HTN planner will take the high-level goal and decompose it into smaller sub-goals, which can be further decomposed into tasks.
 
+Tool Builder: This component will generate code to complete the task, a clear description should also provided for each tool.
+
 Tool Selection: This component will be responsible for selecting the appropriate tools from the library for executing the tasks. Tool script and description will be embedded into vector DB as value and key for future retrieval.
 
 Tool Library: This component will store all the tools that the AI has learned. The tools will be organized based on their functionality and complexity. The AI will add new tools to the library when it successfuly creates them.
